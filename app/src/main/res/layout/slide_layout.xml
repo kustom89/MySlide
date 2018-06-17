@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/slideHeadIv"
+        android:src="@mipmap/eat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:text="HEADING"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slideHeadIv"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/descriptionTv"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:layout_margin="30dp"
+        android:padding="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTv"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:text="@string/description"/>
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/descriptionTv"
+        android:id="@+id/dotsLayout"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
